@@ -1309,7 +1309,7 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrso4av -cov, r')
+	key1=open('/data/data/com.termux/files/usr/bin/marina -cov, r')
 	clear()
 	print(logo)
 	r1=requests.get("https://github.com/Marina75417").text
