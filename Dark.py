@@ -380,11 +380,7 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m 
 \033[1;33m
-       _  _____ _____ 
-      | |/ ____|_   _|
-      | | (___   | |
- | |__| |____) |_| |_ 
-  \____/|_____/|_____|
+       
                       
 \033[1;32mMARINA NAM TO SUNA HI HOGA
 \033[;33mTHE BIG TRICKER HELPER AND HACKER.
