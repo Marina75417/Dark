@@ -132,7 +132,7 @@ def Public():
 		try:
 			cookie=input(" [+] Cookie : ")
 			data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 12.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
-				find_token = re.search("(EAAG\w+)", data.text)
+			find_token = re.search("(EAAG\w+)", data.text)
 			ken=open(".token.txt", "w").write(find_token.group(1))
 			print (" [] Login Successful")
 			login()
@@ -380,7 +380,12 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m 
 \033[1;33m
-       
+       _  _____ _____ 
+      | |/ ____|_   _|
+      | | (___   | |  
+  _   | |\___ \  | |  
+ | |__| |____) |_| |_ 
+  \____/|_____/|_____|
                       
 \033[1;32mMARINA NAM TO SUNA HI HOGA
 \033[;33mTHE BIG TRICKER HELPER AND HACKER.
@@ -1304,7 +1309,7 @@ class Main:
 
 
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/marina.txt-cov,r')
+	key1=open('/data/data/com.termux/files/usr/bin/.mrso4av -cov', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://github.com/Marina75417").text
@@ -1339,4 +1344,5 @@ def Subscraption():
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ma+rina+key1
 		os.system('am start https://wa.me/+9372 022 5196?text=' + tks)
-		Subscraption()     
+		Subscraption()        
+Subscraption()
